@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4C9E6A42589D73D00476A7E"
+               BlueprintIdentifier = "papyrus::Papyrus"
                BuildableName = "Papyrus.framework"
                BlueprintName = "Papyrus"
                ReferencedContainer = "container:Papyrus.xcodeproj">
@@ -57,7 +57,7 @@
             testExecutionOrdering = "random">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A4C9E6AD2589D73E00476A7E"
+               BlueprintIdentifier = "papyrus::PapyrusTests"
                BuildableName = "PapyrusTests.xctest"
                BlueprintName = "PapyrusTests"
                ReferencedContainer = "container:Papyrus.xcodeproj">
@@ -97,7 +97,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A4C9E6A42589D73D00476A7E"
+            BlueprintIdentifier = "papyrus::Papyrus"
             BuildableName = "Papyrus.framework"
             BlueprintName = "Papyrus"
             ReferencedContainer = "container:Papyrus.xcodeproj">
