@@ -18,3 +18,7 @@ class ViewController: UIViewController {
 
 }
 
+
+struct User: Pa{
+    var id
+}
