@@ -1,18 +1,21 @@
-name: CI
+name: "CI"
 
-on:
+on: 
   push:
-    branches: [ main ]
+    branches: 
+      - main
   pull_request:
-    branches: [ main ]
+    branches: 
+      - '*'
 
 jobs:
-  ios-latest:
-    name: Unit Test - iOS 15.5, Xcode 13.4
+  test:
+    name: Unit Tests
     runs-on: macOS-12
     env: 
-      DEVELOPER_DIR: /Applications/Xcode_13.4.app/Contents/Developer
+      DEVELOPER_DIR: /Applications/Xcode_14.2.app/Contents/Developer
     steps:
       - uses: actions/checkout@v2
       - name: Run Tests
-        run: Scripts/test -d "OS=15.5,name=iPhone 13 Pro"
+        run: swift test
+  
